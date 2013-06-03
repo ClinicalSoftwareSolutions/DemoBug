@@ -4,7 +4,7 @@
          <Templates>
        		<ItemTemplate name="lvItem" id="lvItem">
             	<ImageView bindId="image" class="image" id="image" left="0dp"/>
-              	<Label bindId="name" id="name" left="40dp" />
+              	<Label bindId="name" id="name" right="0dp" />
        		</ItemTemplate>
          </Templates>
    	</ListView>

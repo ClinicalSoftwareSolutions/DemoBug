@@ -5,7 +5,7 @@ for (var i = 0; i < 10; i++) {
       image: { image: 'KS_nav_ui.png' },
       properties: {
          itemId: 'row' + (i + 1),
-         accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_NONE
+         accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_DETAIL
       }
    });
 }
