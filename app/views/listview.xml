@@ -1,0 +1,12 @@
+<Alloy>
+	<View id="Wrapper">
+	   <ListView id="list" defaultItemTemplate="lvItem">
+         <Templates>
+       		<ItemTemplate name="lvItem" id="lvItem">
+            	<ImageView bindId="image" class="image" id="image" left="0dp"/>
+              	<Label bindId="name" id="name" left="40dp" />
+       		</ItemTemplate>
+         </Templates>
+   	</ListView>
+	</View>
+</Alloy>
