@@ -1,5 +1,15 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		<ListView id="list" defaultItemTemplate="lvItem">
+   		<Templates>
+      		<ItemTemplate name="lvItem" id="lvItem">
+         		<ImageView bindId="image" class="image" id="image" />
+         		<View id="DetailContainer">
+           			<Label bindId="name" id="name" />
+           			<Label bindId="type" id="type" />
+         		</View>
+         	</ItemTemplate>
+        	</Templates>
+      		</ListView>
 	</Window>
 </Alloy>
