@@ -1,5 +1,45 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		<View id="Wrapper">
+			<ListView id="list">
+		        <ListSection>
+		            <ListItem title="List item 1"></ListItem>
+		            <ListItem title="List item 2"></ListItem>
+		            <ListItem title="List item 4"></ListItem>
+		            <ListItem title="List item 5"></ListItem>
+		            <ListItem title="List item 6"></ListItem>
+		            <ListItem title="List item 7"></ListItem>
+		            <ListItem title="List item 8"></ListItem>
+		            <ListItem title="List item 9"></ListItem>
+		            <ListItem title="List item 10"></ListItem>
+		            <ListItem title="List item 11"></ListItem>
+		            <ListItem title="List item 12"></ListItem>
+		            <ListItem title="List item 13"></ListItem>
+		            <ListItem title="List item 14"></ListItem>
+		            <ListItem title="List item 15"></ListItem>
+		            <ListItem title="List item 16"></ListItem>
+		            <ListItem title="List item 17"></ListItem>
+		            <ListItem title="List item 18"></ListItem>
+		            <ListItem title="List item 19"></ListItem>
+		            <ListItem title="List item 20"></ListItem>
+		            <ListItem title="List item 21"></ListItem>
+		            <ListItem title="List item 22"></ListItem>
+		            <ListItem title="List item 23"></ListItem>
+		            <ListItem title="List item 24"></ListItem>
+		            <ListItem title="List item 25"></ListItem>
+		            <ListItem title="List item 26"></ListItem>
+		            <ListItem title="List item 27"></ListItem>
+		            <ListItem title="List item 28"></ListItem>
+		            <ListItem title="List item 29"></ListItem>
+		            <ListItem title="List item 30"></ListItem>
+		            <ListItem title="List item 31"></ListItem>
+		            <ListItem title="List item 32"></ListItem>
+		            <ListItem title="List item 33"></ListItem>
+		            <ListItem title="List item 34"></ListItem>
+		            <ListItem title="List item 35"></ListItem>
+		            <ListItem title="List item 36"></ListItem>
+		        </ListSection>
+		    </ListView>
+		</View>
 	</Window>
 </Alloy>
